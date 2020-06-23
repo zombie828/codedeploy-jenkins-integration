@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo java -jar *.jar >> /dev/null 2 > /dev/null < /dev/null &
+cd /home/ec2-user
+sudo java -jar *.jar > /dev/null 2> /dev/null < /dev/null &
