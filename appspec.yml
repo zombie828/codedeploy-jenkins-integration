@@ -7,7 +7,7 @@ files:
 
 hooks:
   ApplicationStop:
-    - location: kill_process.sh #ApplicationStop 생명주기에, kill_process.sh를 실행합니다.
+    - location: kill_process.sh #ApplicationStop 생명주기에, kill_process.sh를 실행합니다
   BeforeInstall:
     - location: remove_before.sh #BeforeInstall 생명주기에, 이전에 생성된 파일들을 제거하는 remove_before.sh를 실행합니다.
   ApplicationStart:
